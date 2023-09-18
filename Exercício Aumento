@@ -1,0 +1,16 @@
+public class Ex1 
+{
+    public static void main(String[] args) 
+    {
+       int anoAtual = 2023;
+       double salarioInicial = 1000.0;
+       double aumento = 0.015;
+       
+       for (int ano = 2007; ano <= anoAtual; ano++){
+          aumento *= 2;
+       }
+       double salarioAtual = salarioInicial * (1 + aumento);
+       
+       System.out.println("O salário atual do funcionário em " + anoAtual + " é de R$ " + salarioAtual);
+    }
+}
