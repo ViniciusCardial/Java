@@ -1,7 +1,5 @@
-public class Ex1 
-{
-    public static void main(String[] args) 
-    {
+public class Ex1 {
+    public static void main(String[] args) {
        int anoAtual = 2023;
        double salarioInicial = 1000.0;
        double aumento = 0.015;
